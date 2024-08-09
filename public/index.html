@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link href="/build/style.css" rel="stylesheet" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Results summary component</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    </head>
+    <body class="md:flex md:items-center md:justify-center md:min-h-screen">
+        <main
+            class="bg-white md:flex md:flex-row md:justify-center md:rounded-[35px] md:shadow-xl"
+        >
+            <section
+                class="w-full md:w-[300px] flex items-center flex-col bg-gradient-to-t from-[#2e2be9] to-[#7857ff] rounded-b-[35px] md:rounded-[35px]"
+            >
+                <h2 class="p-4 md:pt-8 text-slate-100 text-xl font-black">
+                    Your Result
+                </h2>
+                <div
+                    class="relative bg-gradient-to-t from-[#493fee] to-[#4e21ca] w-32 md:w-44 h-32 md:h-44 p-6 rounded-full"
+                >
+                    <div
+                        class="absolute left-1/4 md:left-1/4 top-11 md:top-14 items-center flex-col flex"
+                    >
+                        <h1
+                            class="text-6xl md:text-8xl text-slate-50 font-black"
+                        >
+                            76
+                        </h1>
+                        <span class="md:text-2xl text-slate-100">of 100</span>
+                    </div>
+                </div>
+                <h2
+                    class="text-slate-50 pt-6 md:pt-8 pb-1 font-black text-2xl md:text-4xl md:font-bold"
+                >
+                    Great
+                </h2>
+                <div
+                    class="px-20 md:px-14 pt-1 pb-8 text-slate-100 flex items-center"
+                >
+                    <p class="text-justify md:text-center">
+                        You scored higher than 65% of the people who have taken
+                        these tests.
+                    </p>
+                </div>
+            </section>
+            <section class="w-full md:w-[300px] p-7 md:rounded-r-[35px]">
+                <h2 class="text-xl font-bold mb-4">Summary</h2>
+
+                <div class="flex gap-3 flex-col">
+                    <!-- =======Reaction section======== -->
+                    <div
+                        class="bg-red-100 flex flex-row justify-between py-4 px-3 rounded-lg"
+                    >
+                        <div class="flex gap-3 flex-row justify-between">
+                            <img
+                                class=""
+                                src="./assets/images/icon-reaction.svg"
+                                alt=""
+                            />
+                            <div class="text-[#F55] text-lg font-semibold">
+                                Reaction
+                            </div>
+                        </div>
+                        <span><strong>80</strong>/ 100</span>
+                    </div>
+                    <!-- =========Memory section======== -->
+                    <div
+                        class="bg-orange-100 flex flex-row justify-between py-4 px-3 rounded-lg"
+                    >
+                        <div class="flex gap-3 flex-row justify-between">
+                            <img
+                                class=""
+                                src="./assets/images/icon-memory.svg"
+                                alt=""
+                            />
+                            <div class="text-[#FFB21E] text-lg font-semibold">
+                                Memory
+                            </div>
+                        </div>
+                        <span><strong>92</strong>/ 100</span>
+                    </div>
+
+                    <!-- =======Verbal section======== -->
+                    <div
+                        class="bg-green-100 flex flex-row justify-between py-4 px-3 rounded-lg"
+                    >
+                        <div class="flex gap-3 flex-row justify-between">
+                            <img
+                                class=""
+                                src="./assets/images/icon-verbal.svg"
+                                alt=""
+                            />
+                            <div class="text-[#00BB8F] text-lg font-semibold">
+                                Verbal
+                            </div>
+                        </div>
+                        <span><strong>61</strong>/ 100</span>
+                    </div>
+                    <!-- =======Verbal section======== -->
+                    <div
+                        class="bg-blue-100 flex flex-row justify-between py-4 px-3 rounded-lg"
+                    >
+                        <div class="flex gap-3 flex-row justify-between">
+                            <img
+                                class=""
+                                src="./assets/images/icon-visual.svg"
+                                alt=""
+                            />
+                            <div class="text-[#1125D6] text-lg font-semibold">
+                                Visual
+                            </div>
+                        </div>
+
+                        <span><strong>72</strong>/ 100</span>
+                    </div>
+                    <div
+                        class="bg-blue-950 hover:bg-[#493fee] flex flex-row justify-center py-4 md:py-3 md:mt-4 px-3 rounded-full"
+                    >
+                        <p class="text-center font-black text-2xl text-white">
+                            Continue
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--         <div class="attribution">
+    Challenge by
+    <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+    >. Coded by <a href="#">Your Name Here</a>.
+</div>
+ -->
+    </body>
+</html>
